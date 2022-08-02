@@ -1,7 +1,7 @@
 import React from "react"
 
 function App() {
-  // message is the variable with the text stored and setMessage changes the message stored
+  // message is the variable with the text stored and setMessage changes the message stored (updates message)
   const [message, setMessage] = React.useState("JavaScript is so cool.");
 
   function handleClick() {
