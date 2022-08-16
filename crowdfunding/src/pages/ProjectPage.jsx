@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
-
+//Project pages
 function ProjectPage() {
   const [projectData, setProjectData] = useState({ pledges: [] })
   const { id } = useParams()
